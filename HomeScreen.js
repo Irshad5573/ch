@@ -11,8 +11,8 @@ class HomeScreen {
 
   display(){
 
-    image(BG_Img,windowWidth-1600,windowHeight-800,windowWidth,windowHeight);
-
+    image(BG_Img,windowWidth-1600,windowHeight-800,this.canvasWidth,this.canvasHeight);
+    
     
   this.button.position(windowWidth/2 + 20, windowHeight/2);
   
